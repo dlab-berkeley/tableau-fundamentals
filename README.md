@@ -1,6 +1,6 @@
 # D-Lab Tableau Fundamentals Workshop
 
-[![Open Slides](https://img.shields.io/badge/open-slides%20-purple)](ADD URL TO YOUR SLIDE DECK)
+[![Open Slides](https://img.shields.io/badge/open-slides%20-purple)]('somewhere')
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 This repository contains the materials for the Tableau Fundamentals workshop. 
