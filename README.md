@@ -91,6 +91,66 @@ Let's take a look at the census data.
   - [Link to Google Sheet with tabs](https://docs.google.com/spreadsheets/d/1NjDU7KgSFlXDHW5Hm7uw3_NWiX0q9UBsJeFYfkU7qEU/edit?usp=sharing)
   - [Link to Google Sheet with single sheet](https://docs.google.com/spreadsheets/d/1M0LWhsAaPcXOyexzLF2q4GDpVvHrshp9EZkdRp9wV6Y/edit?usp=sharing)
 
+What kind of vizualizations do we want?
+ - [Data Visualisation Catalogue](https://datavizcatalogue.com/)
+
+##Uploading the Data
+Let's upload the data and get it set up for use.
+
+![Screenshow with arrows showing the Tableau Public data import popup](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/Tableau-addData-marked.jpg?raw=true)
+
+Look at the upper left hand corner of the Tableau Public window. Select the data tab and opt to import data. In Tableau public, there are limited data types you can import. In the professional version, there are significantly more tie-ins for data.
+
+Once you've imported your data, look at the right screen panels and tell Tableau how you want the program to understand your data. You can, for example, tell Tableau that your dates are temporal data and that your geographic columns--including cities, counties, and countries--are geographic data.
+
+[Screenshot of Tableu Public data screen wtih data type drop down menu active](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/Tableau-ImportingData-2.jpg?raw=true)
+
+##Creating Your First Viz: Text Table
+Now that we're added our data, let's create our first vizualization by going to "Sheet 1." 
+
+![Screenshot of Tableau Public data screen drawing attention to adding sheets](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/Tableau-Capture-datasourcesandtypes.jpg?raw=true)
+The link for sheet one as well as adding additional sheets is located in the bottom, left hand corner of the Tableau window.
+
+Let's start by creating a Text Table (displays tabular data). 
+- From your list of types on the left, drag your Year data into column
+- Drag your Group into row
+- Drag "population count" under the "Marks" box into "Text."
+
+![Screenshot of Tableau window with text table example](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/Tableau-TextTable.jpg?raw=true)
+
+Tableau will automatically aggregate measures (the quantitative data we pulled into "Text"), allowing for rapid summarization of the larger datasheets you uploaded. And, text tables can be phenomenal ways to highlight specific, precise numbers without being overwhelmning. 
+
+We know have our first vizualization. 
+
+##Sheet 2: Bar charts and line graphs
+
+Tableau automatically divisdes data into measures (quantitative data) and dimensions (qualitative data) as we saw above with a focus on measures. They also divide data into discrete and continuous. 
+
+Take a look at your list of column headers on the left hand side of the screen. The data list should be in blue and green, denoating discrete (blue) and continuous (green) data. 
+Establishing that your data is discrete or continuous allows you to determine vizualization types and connections between your data. Years, for example, can be viewed as seperatemoments in time  or dates that flow from one to the next. 
+![Graph from Tableau's data information displaying their continuous versus discrete categories](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/TableauScreenCapture-continuousvdiscrete.jpg?raw=true).
+
+As you can see from the chart and graph above, the distinction permits different kinds of visualizations. To build a bar chart with our data, we can
+- Drag Year to Columns
+- Drag Population Count to Rows
+- Drag Group to Marks (color)
+- Makes sure "Bar chart" is selected under the "Marks" drop down list.
+
+##Vizualization Design
+Vizualizations are about communication. 
+
+Colors
+Color choices are incredibly important in vizualizations. First and foremost, you want your colors to contrast or blend in order to convey meaning. Second, you should also think about the cultural implications of different color choices. Red, for example, is viewed as a "happy" color for most of the world and as an "angry" color in some, specific communities. White, in contrast, can mean both death or purity. 
+
+Filters
+Sometimes we are working from an enormous data set and we don't want every vizualization to show all of your data. Showing population growth once a decade, for example, might suffice when looking at a century. 
+To limit our data, we can "filter" it by dragging our data categories into the "filter" box above "marks."
+
+
+
+ 
+
+
 
 
 
