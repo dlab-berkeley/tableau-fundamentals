@@ -1,21 +1,12 @@
 # D-Lab Tableau Fundamentals Workshop
 
-[![Open Slides](https://img.shields.io/badge/open-slides%20-purple)]('somewhere')
+[![Open Slides](https://img.shields.io/badge/open-slides%20-purple)]
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 This repository contains the materials for the Tableau Fundamentals workshop. 
 
 Check out D-Lab’s [Workshop Catalog](https://dlab-berkeley.github.io/dlab-workshops/) to browse all workshops, see what’s running now, and review prerequisites.
 
-## Workshop Goals
-
-In this workshop, we provide [WorkshopGoal]. First, we’ll cover [Aim1]. Then,
-we’ll explore [Aim2]. 
-
-_Only if necessary:_ If you are not familiar with material in
-[D-LabWorkshop1](D-LabWorkshop1Link), [D-LabWorkshop2](D-LabWorkshop2Link), and
-[AdditionalWorkshopsAsNeeded](LinksToWorkshops), we recommend attending those
-workshops first.
 
 ## Learning Objectives
 
@@ -129,6 +120,7 @@ Tableau automatically divisdes data into measures (quantitative data) and dimens
 
 Take a look at your list of column headers on the left hand side of the screen. The data list should be in blue and green, denoating discrete (blue) and continuous (green) data. 
 Establishing that your data is discrete or continuous allows you to determine vizualization types and connections between your data. Years, for example, can be viewed as seperatemoments in time  or dates that flow from one to the next. 
+
 ![Graph from Tableau's data information displaying their continuous versus discrete categories](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/TableauScreenCapture-continuousvdiscrete.jpg?raw=true).
 
 As you can see from the chart and graph above, the distinction permits different kinds of visualizations. To build a bar chart with our data, we can
@@ -146,6 +138,7 @@ Color choices are incredibly important in vizualizations. First and foremost, yo
 Filters
 Sometimes we are working from an enormous data set and we don't want every vizualization to show all of your data. Showing population growth once a decade, for example, might suffice when looking at a century. 
 To limit our data, we can "filter" it by dragging our data categories into the "filter" box above "marks."
+
 ![Tableau capture of filter popup](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/TableauCapture-Filters.jpg?raw=true)
 
 ## Mapping in Tableau
@@ -170,6 +163,7 @@ Look at the bottom, left hand corner of your Tableau window and click the icon f
 - Drag Sheets into Dashboard
 - Organize your sheets and filters
 - Include Objects as desired
+
 ![Tableau dashboard screenshow showing different viz and filters.](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/TableauCapture-quickdashboard.jpg?raw=true)
 
 Warning! Changes to the base sheets will be reflected in the Dashboard.
