@@ -80,6 +80,7 @@ Thinking about tabular, structured Data
 
 SAVE THE ORIGINAL 
  - work with a copy
+ - 
 Using your preferred program:
  - Name your file something identifiable
  - Name your tabs (but easier with single sheet instead of full book)
@@ -94,7 +95,7 @@ Let's take a look at the census data.
 What kind of vizualizations do we want?
  - [Data Visualisation Catalogue](https://datavizcatalogue.com/)
 
-##Uploading the Data
+## Uploading the Data
 Let's upload the data and get it set up for use.
 
 ![Screenshow with arrows showing the Tableau Public data import popup](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/Tableau-addData-marked.jpg?raw=true)
@@ -105,7 +106,7 @@ Once you've imported your data, look at the right screen panels and tell Tableau
 
 [Screenshot of Tableu Public data screen wtih data type drop down menu active](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/Tableau-ImportingData-2.jpg?raw=true)
 
-##Creating Your First Viz: Text Table
+## Creating Your First Viz: Text Table
 Now that we're added our data, let's create our first vizualization by going to "Sheet 1." 
 
 ![Screenshot of Tableau Public data screen drawing attention to adding sheets](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/Tableau-Capture-datasourcesandtypes.jpg?raw=true)
@@ -122,7 +123,7 @@ Tableau will automatically aggregate measures (the quantitative data we pulled i
 
 We know have our first vizualization. 
 
-##Sheet 2: Bar charts and line graphs
+## Sheet 2: Bar charts and line graphs
 
 Tableau automatically divisdes data into measures (quantitative data) and dimensions (qualitative data) as we saw above with a focus on measures. They also divide data into discrete and continuous. 
 
@@ -136,8 +137,8 @@ As you can see from the chart and graph above, the distinction permits different
 - Drag Group to Marks (color)
 - Makes sure "Bar chart" is selected under the "Marks" drop down list.
 
-##Vizualization Design
-Vizualizations are about communication. 
+## Vizualization Design
+Vizualizations are about communication. To ensure that your vizualizations communicate what you want them to, think about placement, sizes, and color choices after you've decided on the type of vizualization.
 
 Colors
 Color choices are incredibly important in vizualizations. First and foremost, you want your colors to contrast or blend in order to convey meaning. Second, you should also think about the cultural implications of different color choices. Red, for example, is viewed as a "happy" color for most of the world and as an "angry" color in some, specific communities. White, in contrast, can mean both death or purity. 
@@ -145,14 +146,45 @@ Color choices are incredibly important in vizualizations. First and foremost, yo
 Filters
 Sometimes we are working from an enormous data set and we don't want every vizualization to show all of your data. Showing population growth once a decade, for example, might suffice when looking at a century. 
 To limit our data, we can "filter" it by dragging our data categories into the "filter" box above "marks."
+![Tableau capture of filter popup](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/TableauCapture-Filters.jpg?raw=true)
+
+## Mapping in Tableau
+One of my favorite vizualization types are maps. To create a map in Tableau, add geographic data directly into the Sheet, largest first. If in the United States:
+- Country
+- State
+- County
+- City
 
 
 
- 
+To turn your map into a heat map, you can drag measures into your colors. 
+If you want prefer a point map, then you can draw them into categories like lables. 
 
+## Creating a Dashboard
+At this point, you should have
+- a textual chart
+- a bar chart or line graph
+- a map of Bay Area counties showing population density or otherwise
 
+Look at the bottom, left hand corner of your Tableau window and click the icon for adding a dashboard (it looks like a four-quadraent quare). 
+- Drag Sheets into Dashboard
+- Organize your sheets and filters
+- Include Objects as desired
+![Tableau dashboard screenshow showing different viz and filters.](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/TableauCapture-quickdashboard.jpg?raw=true)
 
+Warning! Changes to the base sheets will be reflected in the Dashboard.
 
+## Publishing
+When you're ready, make sure to publish your data. Be aware that Tableau Public will not store drafts and you must publish publically in order to save your material. 
 
+![Tableau window capture with arrow pointing to "publish" button on upper right.](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/TableauCapture-PublishButton.jpg?raw=true)
 
+Remember! This is a public release of your data. don't use sensative information.
 
+Also, consider cleaning up your dashboard with by:
+ - Namng Sheets/Dashboards
+ - Run Optimizer
+
+# Questions
+Bee Lehman, Ph.D. (Librarian)
+beelehman@berkeley.edu
