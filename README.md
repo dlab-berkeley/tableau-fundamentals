@@ -24,6 +24,7 @@ After this workshop, you will be able to:
 - Import data into Tableau Public
 - Create a series of basic visualizations including bar sharts and heatmaps
 - Connect two visualizations into a dashboard
+- Considering publishing open data
 
 This workshop does not cover the following:
 
@@ -56,6 +57,42 @@ Visit the [D-Lab homepage](https://dlab.berkeley.edu/) to learn more about us. Y
 Bee Lehman, Ph.D. (Literatures and Digital Humanities Librarian)
 
 # Lesson Plan
+##The End Goal
+The end goal of the session is to be able to create a basic Tableau dashboard. Here is an example of a professional dashboard:
+![Screenshot of a Tableau dashboard with four viz.](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/DataAfrik-TableauDashboard.jpg?raw=true)
+
+Example: Tobiloba Babajide, “Datafrik Hotel Dashboard,” Tableau Public, January 6, 2025, [https://public.tableau.com](https://github.com/user-attachments/assets/33ff7416-77ce-43a6-8dd4-fcd73d7998ef).
+
+![Screenshot of alternate Tableau dashboard, showing varrying design elements via Starwars themeing.](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/StarWarsTableauDashboard.jpg?raw=true)
+
+Example: Lilla Rasztik, “The Character Network of Star Wars,” Tableau Public, August 6, 2024, [https://public.tableau.com](https://github.com/user-attachments/assets/cbb2f7f2-e911-4a03-b14f-e04bc399edec).
+
+##To get There:
+Start by:
+Identifying Goals
+
+Thinking about tabular, structured Data
+- What is dataset
+- Picking a dataset
+- Setting up columns and rows
+
+![Screenshot of Tabular data in Excel](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/ExcelCapture-Census.jpg?raw=true)
+
+SAVE THE ORIGINAL 
+ - work with a copy
+Using your preferred program:
+ - Name your file something identifiable
+ - Name your tabs (but easier with single sheet instead of full book)
+ - Label your columns
+
+![Screenshot showcasing combining data sheets into single sheet](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/ExcelCapture-Census-singlesheet.jpg?raw=true)
+
+Let's take a look at the census data.
+  - [Link to Google Sheet with tabs](https://docs.google.com/spreadsheets/d/1NjDU7KgSFlXDHW5Hm7uw3_NWiX0q9UBsJeFYfkU7qEU/edit?usp=sharing)
+  - [Link to Google Sheet with single sheet](https://docs.google.com/spreadsheets/d/1M0LWhsAaPcXOyexzLF2q4GDpVvHrshp9EZkdRp9wV6Y/edit?usp=sharing)
+
+
+
 
 
 
