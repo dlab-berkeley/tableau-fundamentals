@@ -13,14 +13,14 @@ Check out D-Lab’s [Workshop Catalog](https://dlab-berkeley.github.io/dlab-work
 After this workshop, you will be able to:
 
 - Import data into Tableau Public
-- Create a series of basic visualizations including bar sharts and heatmaps
+- Create a series of basic visualizations including bar charts and heat maps
 - Connect two visualizations into a dashboard
 - Considering publishing open data
 
 This workshop does not cover the following:
 
 - Python connectivity
-- Indepth design
+- In-depth design
 
 
 ## Installation Instructions
@@ -83,22 +83,22 @@ Let's take a look at the census data.
   - [Link to Google Sheet with tabs](https://docs.google.com/spreadsheets/d/1NjDU7KgSFlXDHW5Hm7uw3_NWiX0q9UBsJeFYfkU7qEU/edit?usp=sharing)
   - [Link to Google Sheet with single sheet](https://docs.google.com/spreadsheets/d/1M0LWhsAaPcXOyexzLF2q4GDpVvHrshp9EZkdRp9wV6Y/edit?usp=sharing)
 
-What kind of vizualizations do we want?
- - [Data Visualisation Catalogue](https://datavizcatalogue.com/)
+What kind of visualizations do we want?
+ - [Data Visualization Catalogue](https://datavizcatalogue.com/)
 
 ## Uploading the Data
 Let's upload the data and get it set up for use.
 
-![Screenshow with arrows showing the Tableau Public data import popup](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/Tableau-addData-marked.jpg?raw=true)
+![Screenshot with arrows showing the Tableau Public data import popup](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/Tableau-addData-marked.jpg?raw=true)
 
 Look at the upper left hand corner of the Tableau Public window. Select the data tab and opt to import data. In Tableau public, there are limited data types you can import. In the professional version, there are significantly more tie-ins for data.
 
 Once you've imported your data, look at the right screen panels and tell Tableau how you want the program to understand your data. You can, for example, tell Tableau that your dates are temporal data and that your geographic columns--including cities, counties, and countries--are geographic data.
 
-[Screenshot of Tableu Public data screen wtih data type drop down menu active](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/Tableau-ImportingData-2.jpg?raw=true)
+[Screenshot of Tableau Public data screen with data type drop down menu active](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/Tableau-ImportingData-2.jpg?raw=true)
 
 ## Creating Your First Viz: Text Table
-Now that we're added our data, let's create our first vizualization by going to "Sheet 1." 
+Now that we're added our data, let's create our first visualization by going to "Sheet 1." 
 
 ![Screenshot of Tableau Public data screen drawing attention to adding sheets](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/Tableau-Capture-datasourcesandtypes.jpg?raw=true)
 The link for sheet one as well as adding additional sheets is located in the bottom, left hand corner of the Tableau window.
@@ -110,16 +110,16 @@ Let's start by creating a Text Table (displays tabular data).
 
 ![Screenshot of Tableau window with text table example](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/Tableau-TextTable.jpg?raw=true)
 
-Tableau will automatically aggregate measures (the quantitative data we pulled into "Text"), allowing for rapid summarization of the larger datasheets you uploaded. And, text tables can be phenomenal ways to highlight specific, precise numbers without being overwhelmning. 
+Tableau will automatically aggregate measures (the quantitative data we pulled into "Text"), allowing for rapid summaries of the larger datasheets you uploaded. And, text tables can be phenomenal ways to highlight specific, precise numbers without being overwhelming. 
 
-We know have our first vizualization. 
+We know have our first visualization. 
 
 ## Sheet 2: Bar charts and line graphs
 
-Tableau automatically divisdes data into measures (quantitative data) and dimensions (qualitative data) as we saw above with a focus on measures. They also divide data into discrete and continuous. 
+Tableau automatically divides data into measures (quantitative data) and dimensions (qualitative data) as we saw above with a focus on measures. They also divide data into discrete and continuous. 
 
-Take a look at your list of column headers on the left hand side of the screen. The data list should be in blue and green, denoating discrete (blue) and continuous (green) data. 
-Establishing that your data is discrete or continuous allows you to determine vizualization types and connections between your data. Years, for example, can be viewed as seperatemoments in time  or dates that flow from one to the next. 
+Take a look at your list of column headers on the left hand side of the screen. The data list should be in blue and green, denoting discrete (blue) and continuous (green) data. 
+Establishing that your data is discrete or continuous allows you to determine visualization types and connections between your data. Years, for example, can be viewed as segments of time or dates that flow from one to the next. 
 
 ![Graph from Tableau's data information displaying their continuous versus discrete categories](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/TableauScreenCapture-continuousvdiscrete.jpg?raw=true).
 
@@ -129,20 +129,20 @@ As you can see from the chart and graph above, the distinction permits different
 - Drag Group to Marks (color)
 - Makes sure "Bar chart" is selected under the "Marks" drop down list.
 
-## Vizualization Design
-Vizualizations are about communication. To ensure that your vizualizations communicate what you want them to, think about placement, sizes, and color choices after you've decided on the type of vizualization.
+## Visualization Design
+Visualizations are about communication. To ensure that your visualizations communicate what you want them to, think about placement, sizes, and color choices after you've decided on the type of visualization.
 
 Colors
-Color choices are incredibly important in vizualizations. First and foremost, you want your colors to contrast or blend in order to convey meaning. Second, you should also think about the cultural implications of different color choices. Red, for example, is viewed as a "happy" color for most of the world and as an "angry" color in some, specific communities. White, in contrast, can mean both death or purity. 
+Color choices are incredibly important in visualizations. First and foremost, you want your colors to contrast or blend in order to convey meaning. Second, you should also think about the cultural implications of different color choices. Red, for example, is viewed as a "happy" color for most of the world and as an "angry" color in some, specific communities. White, in contrast, can mean both death or purity. 
 
 Filters
-Sometimes we are working from an enormous data set and we don't want every vizualization to show all of your data. Showing population growth once a decade, for example, might suffice when looking at a century. 
+Sometimes we are working from an enormous data set and we don't want every visualization to show all of your data. Showing population growth once a decade, for example, might suffice when looking at a century. 
 To limit our data, we can "filter" it by dragging our data categories into the "filter" box above "marks."
 
 ![Tableau capture of filter popup](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/TableauCapture-Filters.jpg?raw=true)
 
 ## Mapping in Tableau
-One of my favorite vizualization types are maps. To create a map in Tableau, add geographic data directly into the Sheet, largest first. If in the United States:
+One of my favorite visualization types are maps. To create a map in Tableau, add geographic data directly into the Sheet, largest first. If in the United States:
 - Country
 - State
 - County
@@ -151,7 +151,7 @@ One of my favorite vizualization types are maps. To create a map in Tableau, add
 
 
 To turn your map into a heat map, you can drag measures into your colors. 
-If you want prefer a point map, then you can draw them into categories like lables. 
+If you want prefer a point map, then you can draw them into categories like labels. 
 
 ## Creating a Dashboard
 At this point, you should have
@@ -159,7 +159,7 @@ At this point, you should have
 - a bar chart or line graph
 - a map of Bay Area counties showing population density or otherwise
 
-Look at the bottom, left hand corner of your Tableau window and click the icon for adding a dashboard (it looks like a four-quadraent quare). 
+Look at the bottom, left hand corner of your Tableau window and click the icon for adding a dashboard (it looks like a four-quadrant square). 
 - Drag Sheets into Dashboard
 - Organize your sheets and filters
 - Include Objects as desired
@@ -169,14 +169,14 @@ Look at the bottom, left hand corner of your Tableau window and click the icon f
 Warning! Changes to the base sheets will be reflected in the Dashboard.
 
 ## Publishing
-When you're ready, make sure to publish your data. Be aware that Tableau Public will not store drafts and you must publish publically in order to save your material. 
+When you're ready, make sure to publish your data. Be aware that Tableau Public will not store drafts and you must publish publicly in order to save your material. 
 
 ![Tableau window capture with arrow pointing to "publish" button on upper right.](https://github.com/dlab-berkeley/tableau-fundamentals/blob/main/TableauCapture-PublishButton.jpg?raw=true)
 
-Remember! This is a public release of your data. don't use sensative information.
+Remember! This is a public release of your data. don't use sensitive information.
 
 Also, consider cleaning up your dashboard with by:
- - Namng Sheets/Dashboards
+ - Naming Sheets/Dashboards
  - Run Optimizer
 
 # Questions
